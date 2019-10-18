@@ -40,8 +40,6 @@ class Map:
     def placeCar(self, x, y, car):
         if self.checkifplaceisfree(x, y, car):
             self.placeCarIntoDataParkSpace(x, y, car)
-            self.print()
-            print()
             #TODO Do not return
             return True
 
