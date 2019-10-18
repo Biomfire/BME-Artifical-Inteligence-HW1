@@ -14,7 +14,17 @@ class Car:
         return self.getId()
 
     def __lt__(self, other):
-        return self.getSize() < other.getSize()
+        largestSelf = None
+        if(self.sizeX > self.sizeY):
+            largestSelf = self.sizeX
+        else:
+            largestSelf = self.sizeY
+        largestOther = None
+        if (other.sizeX > other.sizeY):
+            largestOther = other.sizeX
+        else:
+            largestOther = other.sizeY
+        return largestSelf < largestOther
 
     def getsizex(self):
         return self.sizeX
