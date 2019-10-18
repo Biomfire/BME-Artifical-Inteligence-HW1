@@ -3,6 +3,7 @@ import os
 from CarPlacer.map import Map
 from CarPlacer.car import Car
 f = open(os.path.realpath('../test_inputs/test2'))
+#END
 carlist = []
 input = f.readline().split("\t")
 m = Map(int(input[0]), int(input[1]))
