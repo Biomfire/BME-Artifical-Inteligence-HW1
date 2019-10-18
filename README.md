@@ -1,4 +1,4 @@
-#Artificial Intelligence first homework
+# Artificial Intelligence first homework
 Legyen adott egy reptéri hosszútávú parkoló, ahol akárhetekig parkolhatnak tetszőleges méretű gépjárművek,
 azaz autók, buszok, motorkerékpárok. A célunk az, hogy minden járműnek legyen helye a parkolóban,
 a járművek egyedi hozzáférhetőségtől most eltekintünk.
@@ -18,7 +18,7 @@ második sorában a járművek számát, utána soronként egy-egy járműhossz�
 2   1
 3   1
 ```
-###Kimenet
+### Kimenet
 Kimenetként írja a **_P_** mátrixot a standard outputra, tabulátorokkal tagolt formátumban.
 ```
 1   1   1   1   4   4   6
